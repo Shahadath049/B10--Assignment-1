@@ -14,6 +14,7 @@ p {
 h2 {
     text-align: center;
     font-weight: 800;
+    font-size: 32px;
 
 }
 
@@ -166,10 +167,65 @@ iframe {
 
 }
 
-.card h2 {
+.card h3 {
     text-align: left;
+    font-size: 24px;
 }
 
 .card-details {
     margin: 30px 0;
+}
+
+.btn {
+    color: #000105;
+    font-weight: 600;
+
+}
+
+.support {
+    text-align: center;
+    margin: 20px;
+    color: #ffffff;
+    background-image: url('/assets/handshake.jpg');
+    background-color: rgba(132, 130, 130, 0.507);
+    background-position: center;
+    background-color: #f0f0f0;
+    height: auto;
+    border-radius: 10px;
+}
+
+.support-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.support p {
+    width: 50%;
+    margin: auto;
+}
+
+.support input[type="submit"] {
+    font-size: 17px;
+    padding: 18px 30px;
+    font-weight: bold;
+    color: #0D1321;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: -4px;
+}
+
+form input[type="text"] {
+    padding: 18px 60px;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(160, 150, 150, 0.507)
 }
