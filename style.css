@@ -167,6 +167,18 @@ iframe {
 
 }
 
+.html {
+    background-color: #fff6f5;
+}
+
+.css {
+    background-color: #e6eefd;
+}
+
+.javascript {
+    background-color: #fffdf0;
+}
+
 .card h3 {
     text-align: left;
     font-size: 24px;
@@ -212,7 +224,7 @@ iframe {
 
 form input[type="submit"] {
     font-size: 17px;
-    padding: 18px 30px;
+    padding: 18px 40px;
     font-weight: bold;
     color: #0D1321;
     background-color: #ffffff;
@@ -221,9 +233,13 @@ form input[type="submit"] {
     margin-left: -4px;
 }
 
+form input::placeholder {
+    color: rgb(233, 233, 233);
+    opacity: 1;
+}
+
 form input[type="text"] {
-    padding: 18px 60px;
-    font-weight: bold;
+    padding: 18px 40px;
     font-size: 17px;
     border: none;
     border-radius: 5px 0 0 5px;
